@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "B612 Mono", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#time {
+  font-size: 8rem;
+  font-weight: 100;
+}
+
+#greeting,
+#name {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+#focus,
+#focus-user {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#focus-user {
+  border-bottom: 2px solid #ccc;
+}
+
+.thought {
+  margin-top: 4rem;
+  font-family: mali, sans-serif;
+}
+
+.temperature {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+@media (max-width: 568px) {
+  #time {
+    font-size: 4rem;
+  }
+  #greeting,
+  #name {
+    font-size: 15px;
+  }
+  #focus,
+  #focus-user {
+    font-size: 22px;
+  }
+}
