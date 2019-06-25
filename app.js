@@ -138,7 +138,7 @@ window.addEventListener("load", () => {
 
           console.log(temperature);
           console.log(timezone);
-          let tempCal = (temperature - 32) * 0.55;
+          let tempCal =Math.floor((temperature - 32) * 0.55);
           temperatureHTML.textContent = `${tempCal} C`;
           timezoneHTML.textContent = timezone;
         });
