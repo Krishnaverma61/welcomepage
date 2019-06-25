@@ -66,9 +66,10 @@ function setBgGreet() {
     //evening
     document.body.style.backgroundImage = "url(./images/evening.jpg)";
     document.body.style.backgroundSize = "1366px 768px";
-    thought.style.color = "#f4f4f4";
+    thought.style.color ="#f4f4f4";
     temperatureHTML.style.color = "#f4f4f4";
     greeting.textContent = "Good Evening ,";
+    document.body.style.color = "#f4f4f4"
   }
 }
 //set names
